@@ -79,6 +79,12 @@ make
 sudo make install
 ```
 
+## Docker
+
+Alternatively, you can build it in Docker, I included the Dockerfile:
+
+    docker build -t video-to-gif .
+
 ## Disclaimer
 
 I built this while experimenting with various tools and methods for encoding GIFs, but it seems to work pretty well, so I'm releasing it here. I have only tested it on Debian, but there is nothing specific to it, so it should work anywhere provided the build dependencies are met.
