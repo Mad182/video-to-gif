@@ -1,7 +1,7 @@
 # video-to-gif
 
 Convert video files to animated GIF using FFmpeg libraries for decoding the video
-and custom Wu quantization + Floyd-Steinberg dithering for GIF encoding.
+and custom Wu's quantization + Floyd-Steinberg dithering for GIF encoding.
 
 This is the default encoder on https://ezgif.com/
 
