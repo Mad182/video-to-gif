@@ -81,7 +81,7 @@ sudo make install
 
 ## Docker
 
-Alternatively, you can build it in Docker, I included the Dockerfile:
+Alternatively, you can build and run it in Docker, I included the Dockerfile:
 
     docker build -t video-to-gif .
 
