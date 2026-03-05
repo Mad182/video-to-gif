@@ -81,13 +81,7 @@ sudo make install
 
 ## Docker
 
-Alternatively, you can pull it from dockerhub:
-
-    docker pull mad182/video-to-gif
-
-    docker run --rm -v "$(pwd):/data" mad182/video-to-gif -i /data/video.mp4 -o /data/out.gif
-    
-Or build it yourself in Docker, I included the Dockerfile:
+Alternatively, you can build it in Docker, I included the Dockerfile:
 
     docker build -t video-to-gif .
 
