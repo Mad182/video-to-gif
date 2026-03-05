@@ -85,9 +85,13 @@ Alternatively, you can build it in Docker, I included the Dockerfile:
 
     docker build -t video-to-gif .
 
-And run it as:
-
     docker run --rm -v "$(pwd):/data" video-to-gif -i /data/source.mp4 -o /data/output.gif
+
+Or pull it from dockerhub:
+
+    docker pull mad182/video-to-gif
+
+    docker run --rm -v "$(pwd):/data" mad182/video-to-gif -i /data/source.mp4 -o /data/output.gif
 
 ## Disclaimer
 
