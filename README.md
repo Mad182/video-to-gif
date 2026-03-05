@@ -85,13 +85,13 @@ Alternatively, you can pull it from dockerhub:
 
     docker pull mad182/video-to-gif
 
-    docker run --rm -v "$(pwd):/data" mad182/video-to-gif -i /data/source.mp4 -o /data/output.gif
+    docker run --rm -v "$(pwd):/data" mad182/video-to-gif -i /data/video.mp4 -o /data/out.gif
     
 Or build it yourself in Docker, I included the Dockerfile:
 
     docker build -t video-to-gif .
 
-    docker run --rm -v "$(pwd):/data" video-to-gif -i /data/source.mp4 -o /data/output.gif
+    docker run --rm -v "$(pwd):/data" video-to-gif -i /data/video.mp4 -o /data/out.gif
 
 ## Disclaimer
 
