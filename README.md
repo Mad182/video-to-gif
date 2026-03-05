@@ -43,7 +43,6 @@ video-to-gif -i video.mp4 -o banner.gif -maxw 800 -maxh 600
 
 ## Features
 
-- **Direct conversion** - no intermediate PNG files, no temp directories
 - **Wu's optimal color quantization** with global palette across all frames
 - **Floyd-Steinberg dithering** for high visual quality
 - **Delta frame optimization** - only encodes changed pixels between frames
