@@ -85,6 +85,10 @@ Alternatively, you can build it in Docker, I included the Dockerfile:
 
     docker build -t video-to-gif .
 
+And run it as:
+
+    docker run --rm -v "$(pwd):/data" video-to-gif -i /data/source.mp4 -o /data/output.gif
+
 ## Disclaimer
 
 I built this while experimenting with various tools and methods for encoding GIFs, but it seems to work pretty well, so I'm releasing it here. I have only tested it on Debian, but there is nothing specific to it, so it should work anywhere provided the build dependencies are met.
