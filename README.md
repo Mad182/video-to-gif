@@ -89,7 +89,7 @@ Alternatively, you can build and run it in Docker, I included the Dockerfile:
 
 ## Disclaimer
 
-I built this while experimenting with various tools and methods for encoding GIFs, but it seems to work pretty well, so I'm releasing it here. I have only tested it on Debian, but there is nothing specific to it, so it should work anywhere provided the build dependencies are met.
+I built this while experimenting with various tools and methods for encoding GIFs, but it seems to work pretty well, so I'm releasing it here. I have only built and tested it on Debian and Alpine Linux, but there is nothing specific to it, so it should work anywhere provided the build dependencies are met.
 
 It's mostly written by AI and using well know algorithms. I just put them together in a way that works for me. I'm not a lawyer, so I don't know what the legal implications of this are. Use at your own risk. I included the MIT license, as it seems one of the most permissive. I don't really care what you do with this code and I can hardly call it mine anyway, you could reproduce it in half an hour with AI.
 
