@@ -91,6 +91,6 @@ Alternatively, you can build and run it in Docker, I included the Dockerfile:
 
 I built this while experimenting with various tools and methods for encoding GIFs, but it seems to work pretty well, so I'm releasing it here. I have only built and tested it on Debian and Alpine Linux, but there is nothing specific to it, so it should work anywhere provided the build dependencies are met.
 
-It's mostly written by AI and using well know algorithms. I just put them together in a way that works for me. I'm not a lawyer, so I don't know what the legal implications of this are. Use at your own risk. I included the MIT license, as it seems one of the most permissive. I don't really care what you do with this code and I can hardly call it mine anyway, you could reproduce it in half an hour with AI.
+It's mostly written by AI and using well know algorithms. I just put them together in a way that works for me. I'm not a lawyer, so I don't know what the legal implications of this are. Use at your own risk. I included the MIT license, as it seems one of the most permissive. I don't really care what you do with this code and I can hardly call it mine anyway, you could reproduce it in half an hour with AI. If you use it online, I would be happy to get a link to https://ezgif.com/ somewhere, but it's in no way required.
 
 For reading and scaling video files, it uses FFmpeg libraries, which are LGPL licensed. I'm not including the FFmpeg code or binaries here, you can get them from your operating system's package manager or from https://ffmpeg.org/download.html
